@@ -9,6 +9,7 @@ public:
     Car() = default;
     Car(string n, string brn, string tf, int s);
     string GetName(); 
+    void SetName(string n);
 
     void Show() const;
 

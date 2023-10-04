@@ -9,6 +9,10 @@ string Car::GetName()
 {
     return name;
 }
+void Car::SetName(string n)
+{
+    name = n;   
+}
 
 void Car::Show() const 
 {
