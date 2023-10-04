@@ -2,7 +2,7 @@
 #include "Transport.h"
 
 class Car : public Transport {
-private:
+private: 
     string name;
 
 public:
